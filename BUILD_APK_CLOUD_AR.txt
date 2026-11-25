@@ -1,0 +1,9 @@
+بناء APK بدون Android Studio أو Android SDK على جهازك:
+1) أنشئ حساباً مجانياً في https://github.com
+2) أنشئ Repository جديداً (New repository) واجعله Public أو Private.
+3) ارفع جميع محتويات هذا المجلد إلى المستودع، مع الحفاظ على مجلد .github.
+4) افتح تبويب Actions ثم اختر Build Android APK.
+5) اضغط Run workflow وانتظر انتهاء البناء بنجاح.
+6) افتح نتيجة التشغيل (workflow run)، وانزل إلى Artifacts، ثم نزّل Feeding-Rehydration-APK.zip.
+7) فك ضغط الملف على الكمبيوتر؛ ستجد app-debug.apk. انقله للهاتف وثبّته بعد السماح بالتثبيت من هذا المصدر.
+ملاحظة: يلزم اتصال إنترنت وحساب GitHub. لا يحتاج الكمبيوتر إلى Android Studio أو SDK لأن البناء يتم على خوادم GitHub.
